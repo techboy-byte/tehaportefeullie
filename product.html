@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<style>
+		ul.keyFeatures li p{
+			margin: 0;
+		}
+	</style>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">MA Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li class="active"><a href="product.html">Product</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+						</ul>
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+							<li><a href="https://www.linkedin.com/in/muhammad-ali-391637125/" class="icon brands fa fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://www.instagram.com/amuhammad771/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/ma334143/ma334143.github.io" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<!-- <span class="date">April 25, 2017</span> -->
+									<h1>Export Documentation Solutions Software (DGS)</h1>
+									<p>A web application for automating export documentation processes. Helps businesses generate, track, and manage export invoices, packing lists, and related documents with accuracy.</p>
+								</header>
+								<div class="image main"><img src="images/pro013.jpg" alt="" /></div>
+								<h2>Overview</h2>
+								<p>The Export Documentation Solution is a custom-built web application developed to simplify and automate the preparation of export-related documents. The system is designed for exporters, freight forwarders, and trading companies who need accuracy, compliance, and speed in managing international trade documentation.</p>
+								<div class="row">
+									
+									<div class="col-12 col-12-small">
+										<h2>Key Features</h2>
+										<ul class="keyFeatures">
+											<li>
+												<b>Commercial Invoice Generation</b>
+												<p>Dynamic invoice creation with buyer/seller details, HS codes, shipment terms, and currency support.</p>
+											</li>
+											<li><b>Packing List Auto-Creation</b><p>Packing lists generated automatically from shipment data with item quantities, weights, and volume.</p></li>
+											<li>
+												<b>Certificate Preparation (Form-E / COO / Others)</b>
+												<p>Automated preparation of required certificates such as Form-E, Certificate of Origin (COO), and others, reducing manual entry.</p>
+											</li>
+											<li>
+												<b>Multiple LC (Letter of Credit) Handling</b>
+												<p>Ability to manage multiple Letters of Credit under one platform, track conditions, and generate supporting documents.</p>
+											</li>
+											<li>
+												<b>Export Record Management</b>
+												<p>Secure database-driven storage of all export transactions. Includes search, filters, and reports for audits or compliance.</p>
+											</li>
+											<li>
+												<b>PDF Download & Print Options</b>
+												<p>One-click PDF generation of invoices, packing lists, and certificates, designed according to international export standards.</p>
+											</li>
+										</ul>
+									</div>
+
+									<div class="col-12 col-12-small">
+										<h2>Technical Implementation</h2>
+										<ul>
+											<li><b>Frontend : </b><span>HTML5, CSS3, JavaScript (jQuery for form validation and dynamic fields).</span></li>
+											<li><b>Backend : </b><span>PHP (Core PHP with MVC structure for maintainability).</span></li>
+											<li><b>Database : </b><span>MySQL (optimized for structured storage of export records and transactions).</span></li>
+											<li><b>Document Generation : </b><span>TCPDF / FPDF libraries for dynamic PDF export.</span></li>
+											<li><b>Authentication : </b><span>User login system with role-based access (Admin / Staff).</span></li>
+											<li><b>Deployment : </b><span>Hosted on cPanel-based shared hosting (Apache server).</span></li>
+										</ul>
+									</div>
+
+									<div class="col-12 col-12-small">
+										<h2>Benefits</h2>
+										<ul>
+											<li>Saves time by automating repetitive document preparation.</li>
+											<li>Reduces errors by pulling data directly from stored records.</li>
+											<li>Centralizes documentation in a secure and searchable system.</li>
+											<li>Provides professional, export-compliant PDFs ready for submission.</li>
+										</ul>
+									</div>
+									
+									<div class="col-12 col-12-small">
+										<h2>Challenges & Difficulties Faced</h2>
+										<ul>
+											<li><b>Complex Document Requirements</b></li>
+											<ol>
+												<li>Different export documents (Commercial Invoice, Form-E, COO) all had unique formats and mandatory fields.</li>
+												<li>Solution: Designed flexible templates and dynamic forms where data could be reused across documents.</li>
+											</ol>
+											<li><b>Handling Multiple LC (Letter of Credit) Rules</b></li>
+											<ol>
+												<li>Different export documents (Commercial Invoice, Form-E, COO) all had unique formats and mandatory fields.</li>
+												<li>Solution: Designed flexible templates and dynamic forms where data could be reused across documents.</li>
+											</ol>
+											<li><b>Accurate Data Mapping</b></li>
+											<ol>
+												<li>Linking product, shipment, and customer data across invoices, packing lists, and certificates without mismatches was tricky.</li>
+												<li>Solution: Created relational database tables with proper foreign keys and validations to keep data consistent.</li>
+											</ol>
+											<li><b>PDF Formatting & Compliance</b></li>
+											<ol>
+												<li>Export authorities required specific layouts for documents, which were difficult to replicate in PDF.</li>
+												<li>Solution: Used TCPDF/FPDF with custom templates and tested documents against real-world compliance standards.</li>
+											</ol>
+											<li><b>Minimizing Manual Errors</b></li>
+											<ol>
+												<li>Export staff were used to manual entry, which often led to mistakes.</li>
+												<li>Solution: Automated field population wherever possible (e.g., pulling buyer/seller details from the database).</li>
+											</ol>
+										</ul>
+									</div>
+									
+									<!-- <div class="col-8 col-8-small">
+										<ul>
+											<h2>Key Features</h2>
+											<li>Commercial Invoice generation</li>
+											<li>Packing List auto creation</li>
+											<li>Certificate (Form-E / COO etc.) preparation</li>
+											<li>Multiple LC (Letter of Credit) handling</li>
+											<li>Export record management (database-based storage)</li>
+											<li>PDF download / print options</li>
+										</ul>
+									</div>
+									
+									<div class="col-4 col-4-small">
+									<ul>
+											<h2>Role</h2>
+											<li>Database design (MySQL)</li>
+											<li>Backend development (PHP)</li>
+											<li>Dynamic forms (jQuery/JavaScript)</li>
+											<li>Document template automation</li>
+											<li>Validation & error handling</li>
+										</ul>
+									</div> -->
+								
+								</div>
+
+								<!-- <div class="row">
+									
+									<div class="col-8 col-8-small">
+										<ul>
+											<h2>Tech Stack</h2>
+											<li>PHP & MySQL</li>
+											<li>jQuery, Bootstrap</li>
+										</ul>
+									</div>
+									
+									<div class="col-4 col-4-small">
+										<ul>
+											<h2>Impact / Results</h2>
+											<li>Reduced manual paperwork time</li>
+											<li>Improved accuracy (fewer errors)</li>
+											<li>Enabled easy report generation</li>
+											<li>Increased company efficiency</li>
+										</ul>
+									
+									</div>
+								</div> -->
+								<!-- <h2>About Us</h2>
+								<p>Export Documentation Solutions
+
+Letter Of Credit Documentation Company
+
+Serving Freight forwarders, Shippers and Banks
+
+﻿﻿We do Export Documentation as per Letter Of Credit terms and conditions.</p> -->
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<!-- <section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section> -->
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(+92) 336-2049516</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">ma334143@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+									<li><a href="https://www.linkedin.com/in/muhammad-ali-391637125/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://www.instagram.com/amuhammad771/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/ma334143/ma334143.github.io" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
